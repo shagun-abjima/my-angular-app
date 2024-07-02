@@ -1,0 +1,42 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .list-inline-item a {
+    font-size: 1.5rem;
+}
+
+footer .h5 {
+    margin-bottom: 1rem;
+}
+
+footer .h6 {
+    margin-bottom: 1rem;
+}
+
+footer .list-inline-item {
+    margin: 0 10px;
+}
+
+footer .list-unstyled li {
+    margin: 0 10px;
+}
+
+@media (min-width: 992px) {
+    footer .list-unstyled.d-md-flex {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
+
+
